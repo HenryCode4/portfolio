@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */ 
 import React from 'react';
 import Head from 'next/head';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
@@ -9,7 +10,7 @@ const resume = () => {
         <title>Chima | Resume</title>
         <meta
           name='description'
-          content='I’m a full-stack web developer specializing in building (and occasionally designing) exceptional digital experiences.'
+          content='I am a full-stack web developer specializing in building (and occasionally designing) exceptional digital experiences.'
         />
         <link rel='icon' href='/fav.png' />
       </Head>
