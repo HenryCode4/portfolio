@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import threads from '../public/assets/projects/mythreads.png';
 import messenger from '../public/assets/projects/messenger.png'
+import shopsnickers from '../public/assets/projects/shopsnickers.png'
 import netflixImg from '../public/assets/projects/netflix.jpg'
 import twitchImg from '../public/assets/projects/twitch.jpg'
 import ProjectItem from './ProjectItem';
@@ -26,6 +27,13 @@ const Projects = () => {
             title='Messenger'
             backgroundImg={messenger}
             projectUrl='https://messenger-gamma-ebon.vercel.app/'
+            tech='React JS'
+
+          />
+          <ProjectItem
+            title='ShopSnickers'
+            backgroundImg={shopsnickers}
+            projectUrl='https://shop-snickers.vercel.app/'
             tech='React JS'
 
           />
